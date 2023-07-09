@@ -14,6 +14,11 @@ multipass set local.primary.cpus=4
 multipass set local.primary.memory=8G
 multipass set local.primary.disk=10G
 
+## Multipass set mount location
+```
+multipass mount /Users/rahulwagh/Documents/Documents-Rahul-MacBook-Pro/common-work-directory primary:/home/ubuntu/common-work-directory
+```
+
 ```
 ## Delete Multipass
 
