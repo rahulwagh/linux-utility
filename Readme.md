@@ -13,6 +13,7 @@ sudo lsof -n -i :80 | grep LISTEN
 multipass set local.primary.cpus=4
 multipass set local.primary.memory=8G
 multipass set local.primary.disk=10G
+```
 
 ## Multipass set mount location
 ```
