@@ -22,3 +22,8 @@ sudo chmod 755 /Library/Application\ Support/com.canonical.multipass/uninstall.s
 
 sudo /Library/Application\ Support/com.canonical.multipass/uninstall.sh
 ```
+
+## Delete multipass with all data
+```
+brew uninstall --zap multipass
+```
