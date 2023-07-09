@@ -27,3 +27,9 @@ sudo /Library/Application\ Support/com.canonical.multipass/uninstall.sh
 ```
 brew uninstall --zap multipass
 ```
+
+## Multipass : launch failed: cannot connect to the multipass socket
+
+```
+Kill the multipassd process form the process monitor 
+```
