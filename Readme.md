@@ -20,6 +20,8 @@ multipass set local.primary.disk=10G
 multipass mount /Users/rahulwagh/Documents/Documents-Rahul-MacBook-Pro/common-work-directory primary:/home/ubuntu/common-work-directory
 ```
 
+From the privacy and security allow disk permission to `multipassd`
+
 ```
 ## Delete Multipass
 
