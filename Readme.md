@@ -22,7 +22,7 @@ multipass mount /Users/rahulwagh/Documents/Documents-Rahul-MacBook-Pro/common-wo
 
 From the privacy and security allow disk permission to `multipassd`
 
-```
+
 ## Delete Multipass
 
 ```
