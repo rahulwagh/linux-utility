@@ -41,3 +41,11 @@ brew uninstall --zap multipass
 ```
 Kill the multipassd process form the process monitor 
 ```
+```
+kill -9 $(pgrep multipass)
+```
+
+## Multipass setautostart false
+```
+multipass set client.gui.autostart=false
+```
