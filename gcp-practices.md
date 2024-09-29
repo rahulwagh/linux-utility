@@ -17,7 +17,7 @@ With the above changes no default vpcs will be created.
 
 ## 3. Types of VPC
 ```
-1. **Default VPC -** Created by the GCP with VPC and single subnet
-2. **Auto VPC -** Default VPC with subnet regions with **/20** with some firewall rules
-3. **Custom VPC -** No Subnet and IP ranges are also flexible
+1. **Default VPC-** Created by the GCP with VPC and single subnet
+2. **Auto VPC-** Default VPC with subnet regions with **/20** with some firewall rules
+3. **Custom VPC-** No Subnet and IP ranges are also flexible
 ```
