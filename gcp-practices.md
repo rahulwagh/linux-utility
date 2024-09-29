@@ -21,3 +21,6 @@ With the above changes no default vpcs will be created.
 2. **Auto VPC-** Default VPC with subnet regions with **/20** with some firewall rules
 3. **Custom VPC-** No Subnet and IP ranges are also flexible
 ```
+
+## 4. Communication between the same VPC
+1. It does not matter which Zone or Region you are in, if you are into the same VPC you can communicate with resources within that VPC.
