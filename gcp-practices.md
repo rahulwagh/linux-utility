@@ -24,3 +24,22 @@ With the above changes no default vpcs will be created.
 
 ## 4. Communication between the same VPC
 1. It does not matter which Zone or Region you are in, if you are into the same VPC you can communicate with resources within that VPC.
+
+
+## 5. Shared VPC
+1. You must of organization setup enabled
+2. You can create vpc in the host project
+3. Share the vpc from host to service but also you need to `ASSIGN Role` to the service project
+
+## 6. Firewall
+
+1. Source filter
+2. Targets
+3. Priority
+4. Direction
+   1. Ingress
+   2. Egress
+5. Protocols and Ports
+   1. TCP
+   2. UDP
+   3. Other - ICMP, sctp
